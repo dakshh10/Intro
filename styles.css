@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: "Merriweather",verdana,sans-serif;
+}
+
+.upper-container{
+    margin-top: 0px;
+    padding-top: 100px;
+    position: relative;
+
+    background-color: #E3F4F4;
+
+}
+h1{
+    color: #66BFBF;
+    margin: 50px auto 0 auto;
+    font-size: 562.5%;
+    font-family: "Sacramento";
+    margin-top: 0px;
+
+}
+h2{
+    color:#11999E;
+    font-family: "Montserrat";
+}
+h3{
+    color: #11999E;
+    font-family: "Montserrat";
+}
+.middle-container{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+    position: relative;
+
+}
+.bottom-container {
+    background-color: #9AC5F4;
+    padding: 50px;
+
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.upper-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.Profile{
+    border-radius: 100%;
+}
+.Skills{
+    float: left;
+    border-radius: 100%;
+    margin-right: 30px;
+}
+.RaceGames{
+    float: right;
+    margin-left: 30px ;
+    border-radius: 10%;
+}
+.noob{
+    font-weight: normal;
+    color: #66BFBF;
+    font-size: 2.5rem;
+}
+.footer-link{
+    margin: 10px 20px;
+    color:#11999E;
+    text-decoration: none;
+}
+.footer-link:hover{
+    color: white;
+}
+.skill-row{
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+hr{
+    border: dotted #749191 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
